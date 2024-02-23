@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio websites:)</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <p class="logo"><span>Q</span>asim.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-line" id="fas" onclick="closemenu()"></i> 
+                </ul>
+                <i class="ri-menu-line"  id="fas" onclick="openmenu()"></i> 
+            </nav>
+            <div class="header-text">
+                <p>Web Developer:)</p>
+                <h1>Hi, I'm <span>Qasim</span><br> From Pakistan:)</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------about Section Star from Here------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://images.unsplash.com/photo-1604822064782-86b012c1a8f7?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span>:)</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Atque esse eius vitae laboriosam ea, iste
+                        quam neque in nesciunt ipsum eligendi similique
+                        voluptates quidem, facilis voluptate commodi, ad vero autem.
+                        Atque esse eius vitae laboriosam ea, iste
+                        quam neque in nesciunt ipsum eligendi similique
+                        voluptates quidem, facilis voluptate commodi,
+                        facilis voluptate commodi,facilis facilis voluptate.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX:)</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development:)</span><br>Designing web Development</li>
+                            <li><span>App Development:)</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current)</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development:)</span><br>Designing Web Development</li>
+                            <li><span>App Development:)</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023)</span><br>Computer Science From Khwaja Fareed Universty <br> of
+                                Engineering And Information Technology:)</li>
+                            <li><span>Web Development:)</span><br>Designing Webs app</li>
+                            <li><span>App Development:)</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------about Section End Here-------------->
+
+    <!--------Services Section Start Here---------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services:)</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>Web Design:)</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Obcaecati reprehenderit quis totam facilis saepe recus</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-crop-line"></i>
+                    <h2>UI/UX Design:)</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Obcaecati reprehenderit quis totam facilis saepe recus</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-line"></i>
+                    <h2>App Development:)</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Obcaecati reprehenderit quis totam facilis saepe recus</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <!---------------PortfolioSection Start Here------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span> work:)</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App:)</h3>
+                    <p>This is a social Media App That connects to you all over the world</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App:)</h3>
+                    <p>This is a social Media App That connects to you all over the world</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App:)</h3>
+                    <p>This is a social Media App That connects to you all over the world</p>
+                    <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more:)</a>
+    </div>
+</div>
+
+    <!---------------Contact Section Start Here------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span> Me</span></h1>
+                <p><i class="ri-send-plane-fill"></i> wwwqasim@gmail.com</p>
+                <p><i class="ri-phone-fill"></i> 03130769599</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="ri-facebook-fill"></i></a>
+                    <a href="https:\\whatsapp.com/"><i class="ri-whatsapp-line"></i></a>
+                    <a href="https:\\twitter.com/"><i class="ri-twitter-x-line"></i></a>
+                    <a href="https:\\linked.in.com/"><i class="ri-linkedin-fill"></i></a>
+                </div>
+                <a href="images/Muhammad-CV.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrightⓒ Qasim, Made <i class="ri-heart-3-fill"></i> By Muhammad Qasim</p>
+
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
